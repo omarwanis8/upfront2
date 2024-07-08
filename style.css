@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --color-primary1: #eff8fc;
+    --color-primary2: #0C1E28;
+    --color-secondary1: #FFD700;
+    --color-secondary2: #FF6347;
+
+
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+body {
+    font-family: "Staatliches", sans-serif;
+    line-height: 1.6;
+    background-color:var(--color-primary1);
+}
+
+header{
+    width: 100%;
+    height: 120px;
+   
+    
+    
+}
+
+header .row .imagetitle img{
+    height: 70px;
+    width: 200px;
+}
+
+header .row nav ul{
+    display: flex;
+    line-height: 120px;
+    margin-left: 50px;
+}
+
+header .row nav ul a{
+    text-decoration: none;
+    color: var(--color-primary2);
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+header .row nav ul a:hover{
+    color: var(--color-secondary2);
+    transition: ease .3s;
+}
+
+ .firstpart{
+    position: relative;
+    top: 40px;
+    height: 450px;
+   
+    
+}
+
+ .firstpart .leftpart1{
+    display: flex;
+    align-items: center;
+}
+
+ .firstpart .leftpart1  span{
+    color: var(--color-secondary2);
+}
+
+ .firstpart .rightpart1 img{
+    height: 450px;
+    width: 100%;
+}
+
+.secondpart {
+    position: relative;
+    top: 100px;
+}
+
+.secondpart .leftpart1{
+    display: flex;
+    align-items: center;
+}
+
+ .secondpart .leftpart1  span{
+    color: var(--color-secondary2);
+}
+
+ .secondpart .rightpart1 img{
+    height: 450px;
+    width: 100%;
+}
+
+.thirdpart{
+    position: relative;
+    top: 150px;
+}
+
+.thirdpart .leftpart1 h2{
+    color: var(--color-secondary2);
+}
+
+.thirdpart .leftpart1 h3{
+    color: var(--color-secondary1);
+}
+
+.thirdpart .rightpart1 img{
+    height: 450px;
+    width: 100%;
+}
+
+
+
+
+@media (max-width:766px){
+
+    header{
+        width: 100%;
+        height: 220px;
+    }
+
+
+    header .row .imagetitle{
+        display: flex;
+        justify-content: center;
+    }
+
+    header .row .imagetitle img{
+        height: 80px;
+        width: 200px;
+    }
+    
+    header .row nav ul{
+        display: flex;
+        
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 0;
+        
+    }
+    
+    header .row nav ul a{
+        text-decoration: none;
+        color: var(--color-primary2);
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    
+    header .row nav ul a:hover{
+        color: var(--color-secondary1);
+        transition: ease .5s;
+    }
+}
+
